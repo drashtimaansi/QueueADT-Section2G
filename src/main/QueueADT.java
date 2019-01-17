@@ -1,5 +1,5 @@
 package main;
-
+import java.util.Arrays;
 public class QueueADT
 {
 
@@ -10,7 +10,15 @@ public class QueueADT
 
 	void enqueue(int value)
 	{
-
+	queue queue1=new queue();
+	rear=rear+1;
+	for(int i = 0;i< queue1.; i++)
+    {
+        if(queue[i]==0)
+        {
+            
+        }
+    }
 	}
 
 	int dequeue()
