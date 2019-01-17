@@ -8,6 +8,7 @@ public class QueueMain
 		queue1.enqueue(50);
 		queue1.enqueue(40);
 		queue1.enqueue(30);
+		queue1.enqueue(20);
 		System.out.println(Arrays.toString(queue1.queue));
 //
 
