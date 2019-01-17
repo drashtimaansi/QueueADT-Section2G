@@ -8,18 +8,16 @@ public class QueueADT
 	int rear = -1;
 	int size = queue.length;
 
-	void enqueue(int value)
-	{
-	queue queue1=new queue();
-	rear=rear+1;
-	for(int i = 0;i< queue1.; i++)
-    {
-        if(queue[i]==0)
-        {
-            
+	void enqueue(int value) {
+        if (!isFull()) {
+            rear = rear + 1;
+            queue[rear] = value;
+
+        }
+        if(rear==1){
+            front=front+1;
         }
     }
-	}
 
 	int dequeue()
 	{
